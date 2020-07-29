@@ -1,0 +1,11 @@
+{
+  "name": "infra",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "broccoli-funnel": "*",
+    "ember-cli-babel": "*",
+    "ember-cli-htmlbars": "*"
+  }
+}

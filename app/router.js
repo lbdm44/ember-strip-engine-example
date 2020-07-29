@@ -1,4 +1,5 @@
 import EmberRouter from '@ember/routing/router';
+import { DEBUG } from '@glimmer/env';
 import config from './config/environment';
 
 export default class Router extends EmberRouter {
@@ -7,4 +8,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  if (DEBUG) {
+    this.mount('foo-bar');
+  }
 });
