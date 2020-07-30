@@ -5,6 +5,7 @@
     "ember-engine"
   ],
   "dependencies": {
+    "broccoli-funnel": "*",
     "ember-cli-htmlbars": "*",
     "ember-cli-babel": "*"
   }
