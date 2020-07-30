@@ -5,6 +5,7 @@
   ],
   "dependencies": {
     "broccoli-funnel": "*",
+    "ember-holy-futuristic-template-namespacing-batman": "*",
     "ember-cli-babel": "*",
     "ember-cli-htmlbars": "*"
   }
