@@ -1,8 +1,14 @@
-'use strict';
+"use strict";
 
-const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 
-module.exports = function(defaults) {
+module.exports = function (defaults) {
+  let { project } = defaults;
+
+  project.addons = project.addons.filter(({ name }) => {
+    return process.env.EMBER_ENV === 'production' && !/foo-bar/.test(name);
+  });
+
   let app = new EmberApp(defaults, {
     // Add options here
   });

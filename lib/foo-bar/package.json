@@ -7,8 +7,6 @@
   "dependencies": {
     "broccoli-funnel": "*",
     "ember-cli-htmlbars": "*",
-    "ember-cli-babel": "*",
-    "ember-engines": "*",
-    "ember-holy-futuristic-template-namespacing-batman": "*"
+    "ember-engines": "*"
   }
 }
