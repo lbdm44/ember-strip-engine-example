@@ -52,7 +52,7 @@
     "eslint-plugin-node": "^11.0.0",
     "glob": "^7.1.6",
     "loader.js": "^4.7.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "qunit-dom": "^1.0.0"
   },
   "engines": {
